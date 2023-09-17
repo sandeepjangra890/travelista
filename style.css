@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    background: url("cool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 82px;
+    z-index: 99;
+    box-shadow: 0 0 4px #000;
+    background: rgb(255, 255, 255);
+}
+
+ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: x-large;
+   
+}
+.a{
+    border: 0.3px solid rgba(0, 0, 0, 0.075);
+    height: 82px;
+    width: 41%;
+    float: left;
+    align-items: center;
+    display: block;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-family: Gabriola;
+    /* font-size: x-large; */
+    
+}
+.logo{
+    font-size: 60px;
+}
+.b{
+ 
+    height: 82px;
+    width: auto;
+    float:left ;
+    
+}
+/* Email hover */
+.b:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.em
+{
+    height: 82px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-seri;
+    font-size: large;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+.c{
+    border: 0.3px solid rgba(0, 0, 0, 0.075);
+    height: 82px;
+    width: auto;
+    float: left;
+}
+.ph
+{
+    text-align: center;
+    padding-top: 30px;;
+    font-family: Arial, Helvetica, sans-seri;
+    font-size:large;
+    margin-left:10vh;
+    margin-right: 10vh;
+}
+/* phone number box text  */
+.phchar
+{
+    color: gray;
+    font-size: small;
+    margin-bottom: 5px;
+}
+.c:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+.dropbtn {
+    background-color: white;
+    border: 0.3px 0px 0px 0px solid rgba(0, 0, 0, 0.075);
+    height: 40px;
+    width: 193px;
+    color: black;
+    padding-top: 7px;
+    font-size: large;
+    text-align: center;
+   
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline;
+    float: left;
+    border: 0.3px solid rgba(0, 0, 0, 0.075);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #555;}

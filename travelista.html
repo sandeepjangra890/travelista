@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelista</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-page.css">
+    <style>
+        
+        
+        
+    </style>
+</head>
+<body>
+   <nav>
+    <div class="main">
+    <div class="a">
+            <p class="logo">Travelista</p>
+    </div> 
+    <div class="b">
+        <!-- email -->
+        <div class="em">
+            <i class="glyphicon glyphicon-envelope"></i>
+            <span>Travelista123@gmail.com</span>
+           
+        </div>
+    </div>
+    <div class="c">
+        <div class="ph">
+            <i class="glyphicon glyphicon-phone"></i>
+            <span class="num">9992023021</span><br>
+            <span class="phchar">call us to book now</span>
+        </div>
+    </div>
+    <div class="loginblock">
+        <div class="loginbtn" onclick="document.getElementById('id01').style.display='block'" style="width:200px;">Login</div>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h1 class="login-logo">Travelista</h1>
+      </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+      <label for="psw"><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <button type="submit">Login</button><br>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+    </div><br>
+</div>
+   </nav>
+   <div class="drpdwn">
+     <div class="dropdown">
+        <div class="dropbtn">UTTAR PRADESH</div>
+        <div class="dropdown-content">
+          <a href="#">Taj Mahal</a>
+          <a href="#">Agra</a>
+          <a href="#">Varanasi</a>
+          <a href="#">Mathura</a>
+          <a href="#">Lucknow</a>
+          <a href="#">Ayodhya</a>
+          <a href="#"> Chitrakoot</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">HARYANA</div>
+        <div class="dropdown-content">
+          <a href="#">Kurukshetra</a>
+          <a href="#">Dharmkshetra</a>
+          <a href="#">Leisure Valley Park</a>
+          <a href="#">Morni Hills</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">UTTARAKHAND</div>
+        <div class="dropdown-content">
+          <a href="#"> Haridwar</a>
+          <a href="#"> Nainital</a>
+          <a href="#"> Rishikesh</a>
+          <a href="#">Mussoorie</a>
+          <a href="#">Badrinath</a>
+          <a href="#">Almora</a>
+          <a href="#">Jim Corbett National Park</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">JAMMU-KASHMIR</div>
+        <div class="dropdown-content">
+          <a href="#">Gulmarg</a>
+          <a href="#">Yusmarg</a>
+          <a href="#">LSonmarg</a>
+          <a href="#">Shankaracharya Temple, Srinagar</a>
+          <a href="#">Shah Kashmir Arts Emporium</a>
+          <a href="#">Dal Lake</a>
+          <a href="#">Pari Mahal</a>
+          <a href="#">Sinthan Top</a>
+          <a href="#">Raghunath Temple Jammu</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">PUNJAB</div>
+        <div class="dropdown-content">
+          <a href="#">Golden Temple</a>
+          <a href="#">Jallianwala Bagh</a>
+          <a href="#">Virasat-e-Khalsa</a>
+          <a href="">Patiala</a>
+          <a href="">Wagah Border</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">TAMILNADU</div>
+        <div class="dropdown-content">
+          <a href="#">Madurai</a>
+          <a href="#">Mudumalai Tiger Reserve</a>
+          <a href="#">Kanyakumari</a>
+          <a href="">Chennai</a>
+          <a href="">Ooty</a>
+          <a href="">Coimbatore</a>
+          <a href="">Meenakshi Temple</a>
+          <a href="">Rameswaram</a>
+          <a href="">Coonoor</a>
+          
+        </div>
+      </div>
+      <div class="dropdown">
+        <div class="dropbtn">OTHER CITIES</div>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+    </div> 
+</body>
+</html>
